@@ -1,7 +1,6 @@
 *main{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
 }
 .container{
     display: flex;
@@ -12,15 +11,10 @@
     height: 50%;
     width: 50%;
     border: 2px  solid black;
-    text-align: center;
-    align-content: center;
     color:green ;
 }
 
 .box:nth_of_type(2){
   
      background_image:url("../1.png");
-    
-  
-  
 }
