@@ -6,8 +6,7 @@
     display: flex;
     /* flex-direction: column; */
     height:100%;
-   
-}
+   }
 .box{
     height: 50%;
     width: 50%;
@@ -18,4 +17,11 @@
 .box:nth-of-type(2){
   
      background-image:url("../1.png");
+}
+@midia(min-width:576px){
+ .container{
+    flex-direction:column;
+ }
+    .box{
+        width:100%;
 }
