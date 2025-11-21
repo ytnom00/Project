@@ -1,7 +1,27 @@
-
-.box1{
-  color:blue;
+*main{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
-.box2{
-  color:yellow;
+.container{
+    display: flex;
+    /* flex-direction: column; */
+}
+.box{
+    height: 400px;
+    width: 400px;
+    border: 2px  solid black;
+    text-align: center;
+    align-content: center;
+   
+}
+.box:nth_of_type(1){
+  color:green !important;
+    background-color: red !important ;
+  
+}
+.box:nth_of_type(2){
+  color:green !important;
+    background-color: yellow !important;
+  
 }
