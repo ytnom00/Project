@@ -18,7 +18,7 @@
 .box:nth_of_type(1){
   color:green !important;
     background-color: red !important ;
-    background_image:url("../dmea_sign_in_watch_384x384.png");
+    background_image:url("../css/1.png");
   
 }
 .box:nth_of_type(2){
