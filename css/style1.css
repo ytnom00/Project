@@ -6,24 +6,21 @@
 .container{
     display: flex;
     /* flex-direction: column; */
-    background_image:url("../css/1.png");
+   
 }
 .box{
-    height: 400px;
-    width: 400px;
+    height: 50%;
+    width: 50%;
     border: 2px  solid black;
     text-align: center;
     align-content: center;
-   
+    color:green ;
 }
-.box:nth_of_type(1){
-  color:green !important;
-   
-    
-  
-}
+
 .box:nth_of_type(2){
-  color:green !important;
+  
+     background_image:url("../1.png");
+    
   
   
 }
