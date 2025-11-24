@@ -24,7 +24,7 @@
 background-image: url("../1.png");
 background-size:cover;
 background-repeat:no-repeat; 
-    backgrond-position:center;
+    background-position:center;
     
     
 
@@ -35,5 +35,11 @@ background-repeat:no-repeat;
     }
    .box:nth-of-type(2){
        background-size:contain;
-       height:100%;
+       background-repeat:no-repeat;
+       background-position:center;
+       height:300px;
+}
+    .box{
+        height:100%;
+    }
 }
