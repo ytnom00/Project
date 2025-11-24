@@ -22,7 +22,9 @@
 .box:nth-of-type(2){
     
 background-image: url("../1.png");
-background-size: cover;
+background-size:fit
+    
+    ;
 background-repeat:no-repeat; 
     backgrond-position:center;
     
