@@ -23,6 +23,7 @@
     
 background-image: url("../1.png");
 background-size: fit;
+background-repeat:no-repeat;    
 
 }
 @media( max-width:567px){
