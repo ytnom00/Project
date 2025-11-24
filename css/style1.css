@@ -33,5 +33,6 @@ background-repeat:no-repeat;
     .container{
         flex-direction: column;
     }
-   
+   .box{
+       height:100%;
 }
