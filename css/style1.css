@@ -22,8 +22,11 @@
 .box:nth-of-type(2){
     
 background-image: url("../1.png");
-background-size: fit;
-background-repeat:no-repeat;    
+background-size: cover;
+background-repeat:no-repeat; 
+    backgrond-position:center;
+    
+    
 
 }
 @media( max-width:567px){
