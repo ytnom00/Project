@@ -17,9 +17,9 @@
 .box:nth-of-type(2){
   
      background-image:url("../1.png");
-    background-size:cover;
-    background-repeat:norepeat;
-    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 @midia(min-width:576px){
  .container{
