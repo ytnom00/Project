@@ -2,7 +2,7 @@
 *main{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
+  x
 }
 .container{
     display: flex;
@@ -23,8 +23,7 @@
     
 background-image: url("../1.png");
 background-size: fit;
-background-repeat: no-repeat;
-background-position: center;
+
 }
 @media( max-width:567px){
     .container{
