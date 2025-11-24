@@ -30,7 +30,5 @@ background-position: center;
     .container{
         flex-direction: column;
     }
-    .box{
-        height: 100%;
-    }
+   
 }
