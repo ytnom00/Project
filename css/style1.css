@@ -21,7 +21,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-@midia(min-width:576px){
+@midia(max-width:576px){
  .container{
     flex-direction:column;
  }
