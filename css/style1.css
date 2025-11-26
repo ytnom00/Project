@@ -12,10 +12,16 @@
 }
 .logo{
     width:25%;
-    
+    background-color:blue;
 }
-.menu{
-    width:75%;
+.log a{
+    width:100%;
+    height:100%;
+   text-align:center;
+    }
+.logo a img{
+    width:auto;
+    height:auto;
 }
 
 
