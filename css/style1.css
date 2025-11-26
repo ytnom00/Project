@@ -28,6 +28,7 @@
 .menu{
     width:75%;
     background-color:yellow;
+}
 
 @media (max-width:576px){
 .header{
