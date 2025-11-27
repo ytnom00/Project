@@ -30,7 +30,19 @@
     background-color:yellow;
     display:flex;
 }
-
+.navBar{
+display:flex;
+ text-decoration:none;
+    
+    
+}
+.navBar ul{
+    list-style:none;
+}
+.navBar ul li a {
+ text-decoration:none;
+    
+}
 
 @media (max-width:576px){
 .header{
