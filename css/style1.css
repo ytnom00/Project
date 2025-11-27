@@ -30,17 +30,14 @@
     background-color:yellow;
     display:flex;
 }
-.navBar{
-display:flex;
- text-decoration:none;
-    
-    
-}
+
 .navBar ul{
+    display:flex;
+ text-decoration:none;
     list-style:none;
 }
 .navBar ul li a {
- text-decoration:none;
+    text-decoration:none;
     
 }
 
