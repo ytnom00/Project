@@ -5,8 +5,9 @@
   
 }
 .header{
-    width: 100%;
+    width: 100vw;
     height: 10vh;
+  
     display: flex;
 
 }
@@ -29,18 +30,22 @@
 }
 .menu{
    flex:1;
-   background-color:lightblue;;
+      background-color:lightblue;;
 }
 .navBar {
-flex:0 0 auto;
+    height: 100%;
+width: 100%;
+display: flex;
 
 
 }
 .navBar ul{
+    margin: 0;
+    padding: 0;
     display: flex;
     width: 100%;
     height: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
    list-style: none;
   
