@@ -36,7 +36,7 @@
     height: 100%;
 width: 100%;
 display: flex;
-
+position:relative;
 
 }
 .navBar ul{
@@ -51,6 +51,10 @@ display: flex;
     overflow:hidden;
     font-size:16px;
   
+}
+.navBar ul li {
+    position:relative;
+padding:7px;
 }
 .navBar ul li a{
    text-decoration: none;
