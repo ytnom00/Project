@@ -1,11 +1,17 @@
-body{
-    margin: 0px;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size:clamp(14px,1.1vw,18px) ;
 }
 .header{
     width: 100%;
-    height: 10%h;
-  
-    display: flex;
+    height: 10%;
+ display: flex;
+   
 
 }
 .logo{
@@ -15,7 +21,7 @@ body{
 }
 .logo a{
     width: 100%;
-    height: 100%;
+    
      display: flex;
     justify-content: center;
 
@@ -23,16 +29,17 @@ body{
 }
 .logo a img{
     width: auto;
-    height: auto;
+    
 }
 .menu{
-   flex:1;
+      flex:1;
       background-color:lightblue;
+      display: flex;
+      align-items: center;
       
 }
 .navBar {
-    height: 100%;
-    width: 100%;
+   width: 100%;
     display: flex;
 
 
@@ -41,23 +48,27 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: 100%;
     justify-content: space-around;
     align-items: center;
    list-style: none;
    font-size:18px;
-    position:relative;
+  
    
   
 }
 
 .navBar ul li a{
    text-decoration: none;
-    position:absolute;
+   font-size: 1rem;
+
+   
   
  
 }
+
+
 
 
 @media (max-width:576px){
