@@ -47,12 +47,14 @@ body{
     align-items: center;
    list-style: none;
    font-size:18px;
+    position:relative;
    
   
 }
 
 .navBar ul li a{
    text-decoration: none;
+    position:absolute;
   
  
 }
