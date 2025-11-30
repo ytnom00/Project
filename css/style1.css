@@ -1,80 +1,75 @@
-
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-
 .header{
-    width: 100%;
-    height: 10%;
- display: flex;
-   
+    width: 100vw;
+    height: 2rem;
+    display: flex;
+    background-color: darkblue;
+
 
 }
 .logo{
-   flex: 0 0 15em;
-    background-color: darkblue;
+    width: 25%;
+    height:2rem;
    
 }
 .logo a{
     width: 100%;
-    height:100%;
-     display: flex;
-    justify-content: center;
-
-
-}
-.logo a img{
-    width: auto;
-    height:auto;
-    
+    height:2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .menu{
-      flex:1;
-      background-color:lightblue;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    
+    
+
+
+}
+.navBar{
+    flex:1;
+    display: flex;    
+    
+}
+.menu .navBar ul{
+
       display: flex;
-      align-items: center;
-      
-}
-.navBar {
-   width: 100%;
-    display: flex;
-    over-flow:auto;
-
-
-}
-.navBar ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
+      flex: 1;;
     justify-content: space-around;
     align-items: center;
+   text-decoration: none;
    list-style: none;
-   font-size:18px;
-  
+   gap: 20px;
    
   
+    
+   
+
 }
 .navBar ul li{
-    margin:0 10px;
-    padding:5px 10px;
-     white-space:nowrap; /*keeps text in one line */
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    
 }
 
 .navBar ul li a{
-   text-decoration: none;
-   font-size: 1rem;
-
-   
-  
- 
+    text-decoration: none;
+    font-size:1rem;
+    flex: 1;
+    color:white; 
+     
+    
+     
+      
+    
 }
-
-
-
 
 @media (max-width:576px){
 .header{
