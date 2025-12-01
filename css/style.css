@@ -28,14 +28,14 @@ width:25%;
 }
 logo a img{
 width:auto;
-  height:100%;
+  height:auto;
   
   
 }
 .menu{
 width:75%;
-  height:100%
-  background-color:blue;
+  height:100%;
+   background-color:blue;
   display:flex;
 }
 .menu .navbar {
