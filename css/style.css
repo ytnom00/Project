@@ -42,7 +42,7 @@
    text-decoration: none;
    list-style-type: none;
    }
-.navBar ul li{
+.menu .navBar ul li{
     width: 100%;
     height: 100%;
     display: flex;
